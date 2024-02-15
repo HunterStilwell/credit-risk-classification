@@ -2,7 +2,7 @@
 
 
 ## Credit Risk Analysis Report
--------------------------------
+
 ### Overview of the Analysis
 -------------------------------
 The purpose of this analysis was to use information about borrowers to train a model, so that loan risk could be effectively determined for future loans. The financial information that was taken into consideration to train the model was a borrower's loan size, interest rate, income, debt to income ratio, number of accounts, any derogatory marks, and total amount of debt. The data then told whether or not the loan was healthy or high-risk in each case. In the dataset that was used there were 75,036 instances of healthy loans and 2500 instances of high-risk loans. To start the analysis, the target (whether the loan was healthy or high-risk) was split from the rest of the data (the features). Then both the target and features were split into training and testing data. Then, two models were created and evaluated. The first model was a logistic regression model that was trained with the training data, both the features and the target, and then predicted results using the test data of features. The predictions were then compared with the actual target results and evaluated to see how accurate the model was. The second model was a logistic regression model as well, but the data used to train the model was oversampled to try to balance the amount of healthy loans and high-risk loans that were taken into consideration when training the model. This second model then predicted results from the testing data and was evaluated to see how well it could predict the loan status.
